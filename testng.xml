@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ujjwal.bisht/Desktop/RestAssuredLearning">
+        <classes>
+            <class name="com.rahulshettyacademy.tests.getAllProductsTest">
+                <methods>
+                    <include name="getAllProducts"/>
+                </methods>
+            </class>
+            <class name="com.rahulshettyacademy.tests.getCartCountTest">
+                <methods>
+                    <include name="getCartDetails"/>
+                </methods>
+            </class>
+            <class name="com.rahulshettyacademy.tests.getCartProductsTest">
+                <methods>
+                    <include name="getCartProducts"/>
+                </methods>
+            </class>
+            <class name="com.rahulshettyacademy.tests.loginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="com.rahulshettyacademy.tests.productsAddedtoCartTest">
+                <methods>
+                    <include name="addAdidasOriginalToCart"/>
+                    <include name="addZaraCoatToCart"/>
+                    <include name="addIphone13ToCart"/>
+                </methods>
+            </class>
+
+            <class name = "com.rahulshettyacademy.tests.createOrderTest">
+                <methods>
+                    <include name="createOrderTest"/>
+                </methods>
+            </class>
+
+            <class name="com.rahulshettyacademy.tests.deleteOrdersTest">
+                <methods>
+                    <include name="deleteOrders"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

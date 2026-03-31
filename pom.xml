@@ -16,12 +16,12 @@
 
     <dependencies>
         <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
+        <!-- <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.11.0</version>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
 
 
         <!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
